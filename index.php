@@ -18,34 +18,17 @@ foreach ($users as $user) {
 	
 	if($user['gender'] === 'Uomo') {
 		
-		echo "Buongiorno Sig. " . $user['name'] . " " . $user['surname'] . "<br>";
+		echo "Buongiorno Sig. " . $user['name'] . " " . $user['surname'] . "\n";
 
 	} elseif ($user['gender'] === 'Donna') {
 		
-		echo "Buongiorno Sig.ra " . $user['name'] . " " . $user['surname'] . "<br>";
+		echo "Buongiorno Sig.ra " . $user['name'] . " " . $user['surname'] . "\n";
 
 	} elseif ($user['gender'] === 'NB') {
 
-		echo "Buongiorno " . $user['name'] . " " . $user['surname'] . "<br>";
+		echo "Buongiorno " . $user['name'] . " " . $user['surname'] . "\n";
 	}
 }
 
 
-
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
